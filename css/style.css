@@ -25,6 +25,66 @@ h1, h2, h3, h4, h5, h6, p{
 /* ====== Common CSS Style End ====== */
 
 /* ====== Navbar Section Style Start ====== */
+#navbar{
+    padding: 23px 0;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(2px);
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;  
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; 
+}
+
+.menu li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #606D93;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+
+.menu li a:hover{
+    color: #192252;
+}
+
+.nav_btn{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_btn a{
+    display: inline-block;
+    background: #6345D5;
+    border: 1px solid #6345D5;
+    border-radius: 8px;
+    padding: 16px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+
+.nav_btn a:hover{
+    background: #FFFFFF;
+    color: #6345D5;
+}
 /* ====== Navbar Section Style End ====== */
 
 /* ====== Banner Section Style Start ====== */
