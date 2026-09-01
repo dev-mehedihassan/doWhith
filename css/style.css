@@ -1,0 +1,52 @@
+/* ====== Common CSS Style Start ====== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+ul, ol, dl{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+/* ====== Common CSS Style End ====== */
+
+/* ====== Navbar Section Style Start ====== */
+/* ====== Navbar Section Style End ====== */
+
+/* ====== Banner Section Style Start ====== */
+/* ====== Banner Section Style End ====== */
+
+/* ====== Counter Section Style Start ====== */
+/* ====== Counter Section Style End ====== */
+
+/* ====== Feature Section Style Start ====== */
+/* ====== Feature Section Style End ====== */
+
+/* ====== Video Section Style Start ====== */
+/* ====== Video Section Style End ====== */
+
+/* ====== Brand Section Style Start ====== */
+/* ====== Brand Section Style End ====== */
+
+/* ====== Pricing Section Style Start ====== */
+/* ====== Pricing Section Style End ====== */
+
+/* ====== Review Section Style Start ====== */
+/* ====== Review Section Style End ====== */
+
+/* ====== Footer Section Style Start ====== */
+/* ====== Footer Section Style End ====== */
