@@ -228,6 +228,60 @@ h1, h2, h3, h4, h5, h6, p{
     padding-top: 522px;
     padding-bottom: 32px;
 }
+
+.counter_wrapper{
+    padding: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+}
+
+.counter_item::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    height: 32px;
+    width: 2px;
+    transform: translate(64px,-50%);
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.counter_item:last-child::after{
+    background: transparent;
+}
+
+.counter_item .count_number{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.counter_item .count_title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.counter_item:first-child{
+    justify-content: start;
+}
+
+.counter_item:last-child{
+    justify-content: end;
+}
 /* ====== Counter Section Style End ====== */
 
 /* ====== Feature Section Style Start ====== */
