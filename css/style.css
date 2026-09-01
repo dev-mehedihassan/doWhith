@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 40px 0;
 }
 
-.banner_tn{
+.banner_btn{
     display: flex;
     gap: 24px;
 }
@@ -225,6 +225,8 @@ h1, h2, h3, h4, h5, h6, p{
 /* ====== Counter Section Style Start ====== */
 #counter{
     background: #201353;
+    padding-top: 522px;
+    padding-bottom: 32px;
 }
 /* ====== Counter Section Style End ====== */
 
