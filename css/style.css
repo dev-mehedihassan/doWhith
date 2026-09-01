@@ -285,6 +285,141 @@ h1, h2, h3, h4, h5, h6, p{
 /* ====== Counter Section Style End ====== */
 
 /* ====== Feature Section Style Start ====== */
+#feature{
+    padding: 100px 0;
+    background: #201353;
+    position: relative;
+}
+
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_heading h2{
+    max-width: 514px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.feature_heading p{
+    max-width: 555px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 18px;
+}
+
+.feature_main{
+    margin-top: 48px;
+}
+
+.feature_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feature_img{
+    position: absolute;
+    bottom: -4px;
+    right: 12%;
+}
+
+.feature_wrapper .transition{
+    max-width: 368px;
+    padding: 24px;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.transition_heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.transition_heading h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #192252;
+}
+
+.transition p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #848FAC;
+    margin-top: 20px;
+}
+
+.transition .progress{
+    height: 4px;
+    border-radius: 2px;
+    background: #EFF3FA;
+    margin-top: 24px;
+    position: relative;
+}
+
+.transition .progress::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 2px;
+    background: #6245D5;
+    overflow: hidden;
+}
+
+.feature_wrapper .history{
+    max-width: 368px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1.5px solid #2C1A74;
+}
+
+.history_heading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.history_heading h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.skilliton1{
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+}
+
+.skilliton2{
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 10px;
+}
+
+.skilliton3{
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 26px;
+}
 /* ====== Feature Section Style End ====== */
 
 /* ====== Video Section Style Start ====== */
